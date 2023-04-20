@@ -1,0 +1,16 @@
+
+################################################################################################################################################
+Starting Execution:	"1 out of 7" test cases in the current suite
+Test Method:		"TestDeleteBooking.testDeleteBook"
+################################################################################################################################################
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @20-04-2023 15:28:58.0297 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @20-04-2023 15:28:58.0298 PM
+[ReportManager] Perform request "GET | Target Status Code: 200 | Service URL: https://restful-booker.herokuapp.com/booking/ | Content Type: application/json | Response Time: 794ms". @20-04-2023 15:28:58.0817 PM
+[ReportManager] Successfully created attachment "API Request - Specifications" @20-04-2023 15:28:58.0817 PM
+[ReportManager] Successfully created attachment "API Response - JSON Body" @20-04-2023 15:28:58.0975 PM
+[ReportManager] Get response jsonvalue "[0].bookingid". @20-04-2023 15:28:59.0022 PM
+[ReportManager] Response status code: "201", status line: "HTTP/1.1 201 Created" @20-04-2023 15:28:59.0779 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @20-04-2023 15:28:59.0779 PM
+[ReportManager] Perform request "DELETE | Target Status Code: 201 | Service URL: https://restful-booker.herokuapp.com/booking/4817 | Content Type: application/json | Response Time: 751ms". @20-04-2023 15:28:59.0792 PM
+[ReportManager] Successfully created attachment "API Request - Specifications" @20-04-2023 15:28:59.0793 PM
+[ReportManager] Successfully created attachment "API Response - Body" @20-04-2023 15:28:59.0794 P

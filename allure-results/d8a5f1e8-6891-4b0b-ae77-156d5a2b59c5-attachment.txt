@@ -1,0 +1,45 @@
+
+################################################################################################################################################
+Starting Execution:	"5 out of 7" test cases in the current suite
+Test Method:		"TestUpdateBooking.testUpdateBooking"
+################################################################################################################################################
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/updateBooking.json"". @20-04-2023 15:29:08.0380 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/updateBooking.json"". @20-04-2023 15:29:08.0380 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/updateBooking.json"". @20-04-2023 15:29:08.0388 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/updateBooking.json"". @20-04-2023 15:29:08.0389 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/updateBooking.json"". @20-04-2023 15:29:08.0396 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/updateBooking.json"". @20-04-2023 15:29:08.0397 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/updateBooking.json"". @20-04-2023 15:29:08.0404 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/updateBooking.json"". @20-04-2023 15:29:08.0404 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/updateBooking.json"". @20-04-2023 15:29:08.0413 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/updateBooking.json"". @20-04-2023 15:29:08.0413 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/updateBooking.json"". @20-04-2023 15:29:08.0422 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/updateBooking.json"". @20-04-2023 15:29:08.0422 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/updateBooking.json"". @20-04-2023 15:29:08.0431 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/updateBooking.json"". @20-04-2023 15:29:08.0431 PM
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @20-04-2023 15:29:09.0214 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @20-04-2023 15:29:09.0214 PM
+[ReportManager] Perform request "GET | Target Status Code: 200 | Service URL: https://restful-booker.herokuapp.com/booking/ | Content Type: application/json | Response Time: 772ms". @20-04-2023 15:29:09.0579 PM
+[ReportManager] Successfully created attachment "API Request - Specifications" @20-04-2023 15:29:09.0580 PM
+[ReportManager] Successfully created attachment "API Response - JSON Body" @20-04-2023 15:29:09.0585 PM
+[ReportManager] Get response jsonvalue "[0].bookingid". @20-04-2023 15:29:09.0611 PM
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @20-04-2023 15:29:10.0358 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @20-04-2023 15:29:10.0358 PM
+[ReportManager] Perform request "PUT | Target Status Code: 200 | Service URL: https://restful-booker.herokuapp.com/booking/3579 | Content Type: application/json | Response Time: 744ms". @20-04-2023 15:29:10.0367 PM
+[ReportManager] Successfully created attachment "API Request - Specifications" @20-04-2023 15:29:10.0367 PM
+[ReportManager] Successfully created attachment "API Request - JSON Body" @20-04-2023 15:29:10.0368 PM
+[ReportManager] Successfully created attachment "API Response - JSON Body" @20-04-2023 15:29:10.0368 PM
+[ReportManager] Get response jsonvalue "firstname". @20-04-2023 15:29:10.0370 PM
+[ReportManager] Verification Passed: The API response extracted value from the JSON path "firstname" is equal to "Mohamed". @20-04-2023 15:29:10.0373 PM
+[ReportManager] Get response jsonvalue "lastname". @20-04-2023 15:29:10.0373 PM
+[ReportManager] Verification Passed: The API response extracted value from the JSON path "lastname" is equal to "Belal". @20-04-2023 15:29:10.0373 PM
+[ReportManager] Get response jsonvalue "totalprice". @20-04-2023 15:29:10.0374 PM
+[ReportManager] Verification Passed: The API response extracted value from the JSON path "totalprice" is equal to "222". @20-04-2023 15:29:10.0374 PM
+[ReportManager] Get response jsonvalue "depositpaid". @20-04-2023 15:29:10.0374 PM
+[ReportManager] Verification Passed: The API response extracted value from the JSON path "depositpaid" is equal to "false". @20-04-2023 15:29:10.0375 PM
+[ReportManager] Get response jsonvalue "additionalneeds". @20-04-2023 15:29:10.0375 PM
+[ReportManager] Verification Passed: The API response extracted value from the JSON path "additionalneeds" is equal to "Breakfast". @20-04-2023 15:29:10.0375 PM
+[ReportManager] Get response jsonvalue "bookingdates.checkin". @20-04-2023 15:29:10.0376 PM
+[ReportManager] Verification Passed: The API response extracted value from the JSON path "bookingdates.checkin" is equal to "2020-01-01". @20-04-2023 15:29:10.0376 PM
+[ReportManager] Get response jsonvalue "bookingdates.checkout". @20-04-2023 15:29:10.0376 PM
+[ReportManager] Verification Passed: The API response extracted value from the JSON path "bookingdates.checkout" is equal to "2023-01-01". @20-04-2023 15:29:10.0377 P

@@ -1,0 +1,10 @@
+
+################################################################################################################################################
+Starting Execution:	"3 out of 7" test cases in the current suite
+Test Method:		"TestBookingIds.testGetAllBooking"
+################################################################################################################################################
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @20-04-2023 15:29:01.0428 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @20-04-2023 15:29:01.0428 PM
+[ReportManager] Perform request "GET | Target Status Code: 200 | Service URL: https://restful-booker.herokuapp.com/booking/ | Content Type: application/json | Response Time: 767ms". @20-04-2023 15:29:01.0843 PM
+[ReportManager] Successfully created attachment "API Request - Specifications" @20-04-2023 15:29:01.0844 PM
+[ReportManager] Successfully created attachment "API Response - JSON Body" @20-04-2023 15:29:01.0845 P

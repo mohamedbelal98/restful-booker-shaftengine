@@ -1,0 +1,39 @@
+
+################################################################################################################################################
+Starting Execution:	"6 out of 7" test cases in the current suite
+Test Method:		"TestCreateBooking.testCreateBooking"
+################################################################################################################################################
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/createBooking.json"". @20-04-2023 15:29:10.0380 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/createBooking.json"". @20-04-2023 15:29:10.0381 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/createBooking.json"". @20-04-2023 15:29:10.0390 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/createBooking.json"". @20-04-2023 15:29:10.0390 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/createBooking.json"". @20-04-2023 15:29:10.0398 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/createBooking.json"". @20-04-2023 15:29:10.0398 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/createBooking.json"". @20-04-2023 15:29:10.0405 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/createBooking.json"". @20-04-2023 15:29:10.0407 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/createBooking.json"". @20-04-2023 15:29:10.0414 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/createBooking.json"". @20-04-2023 15:29:10.0414 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/createBooking.json"". @20-04-2023 15:29:10.0422 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/createBooking.json"". @20-04-2023 15:29:10.0422 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/createBooking.json"". @20-04-2023 15:29:10.0440 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/createBooking.json"". @20-04-2023 15:29:10.0440 PM
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @20-04-2023 15:29:11.0228 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @20-04-2023 15:29:11.0228 PM
+[ReportManager] Perform request "POST | Target Status Code: 200 | Service URL: https://restful-booker.herokuapp.com/booking/ | Content Type: application/json | Response Time: 776ms". @20-04-2023 15:29:11.0237 PM
+[ReportManager] Successfully created attachment "API Request - Specifications" @20-04-2023 15:29:11.0237 PM
+[ReportManager] Successfully created attachment "API Request - JSON Body" @20-04-2023 15:29:11.0238 PM
+[ReportManager] Successfully created attachment "API Response - JSON Body" @20-04-2023 15:29:11.0239 PM
+[ReportManager] Get response jsonvalue "booking.firstname". @20-04-2023 15:29:11.0239 PM
+[ReportManager] Verification Passed: The API response extracted value from the JSON path "booking.firstname" is equal to "Jim". @20-04-2023 15:29:11.0239 PM
+[ReportManager] Get response jsonvalue "booking.lastname". @20-04-2023 15:29:11.0240 PM
+[ReportManager] Verification Passed: The API response extracted value from the JSON path "booking.lastname" is equal to "Brown". @20-04-2023 15:29:11.0240 PM
+[ReportManager] Get response jsonvalue "booking.totalprice". @20-04-2023 15:29:11.0241 PM
+[ReportManager] Verification Passed: The API response extracted value from the JSON path "booking.totalprice" is equal to "111". @20-04-2023 15:29:11.0241 PM
+[ReportManager] Get response jsonvalue "booking.depositpaid". @20-04-2023 15:29:11.0241 PM
+[ReportManager] Verification Passed: The API response extracted value from the JSON path "booking.depositpaid" is equal to "true". @20-04-2023 15:29:11.0242 PM
+[ReportManager] Get response jsonvalue "booking.additionalneeds". @20-04-2023 15:29:11.0242 PM
+[ReportManager] Verification Passed: The API response extracted value from the JSON path "booking.additionalneeds" is equal to "Breakfast". @20-04-2023 15:29:11.0242 PM
+[ReportManager] Get response jsonvalue "booking.bookingdates.checkin". @20-04-2023 15:29:11.0243 PM
+[ReportManager] Verification Passed: The API response extracted value from the JSON path "booking.bookingdates.checkin" is equal to "2018-01-01". @20-04-2023 15:29:11.0243 PM
+[ReportManager] Get response jsonvalue "booking.bookingdates.checkout". @20-04-2023 15:29:11.0243 PM
+[ReportManager] Verification Passed: The API response extracted value from the JSON path "booking.bookingdates.checkout" is equal to "2019-01-01". @20-04-2023 15:29:11.0244 P

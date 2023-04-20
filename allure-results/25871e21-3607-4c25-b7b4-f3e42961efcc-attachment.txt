@@ -1,0 +1,15 @@
+
+################################################################################################################################################
+Starting Execution:	"2 out of 7" test cases in the current suite
+Test Method:		"TestCreateToken.testAuth"
+################################################################################################################################################
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/authentication.json"". @20-04-2023 15:28:59.0871 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/authentication.json"". @20-04-2023 15:28:59.0871 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/authentication.json"". @20-04-2023 15:28:59.0882 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/authentication.json"". @20-04-2023 15:28:59.0883 PM
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @20-04-2023 15:29:00.0640 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @20-04-2023 15:29:00.0640 PM
+[ReportManager] Perform request "POST | Target Status Code: 200 | Service URL: https://restful-booker.herokuapp.com/auth | Content Type: application/json | Response Time: 744ms". @20-04-2023 15:29:00.0649 PM
+[ReportManager] Successfully created attachment "API Request - Specifications" @20-04-2023 15:29:00.0650 PM
+[ReportManager] Successfully created attachment "API Request - JSON Body" @20-04-2023 15:29:00.0651 PM
+[ReportManager] Successfully created attachment "API Response - JSON Body" @20-04-2023 15:29:00.0651 P

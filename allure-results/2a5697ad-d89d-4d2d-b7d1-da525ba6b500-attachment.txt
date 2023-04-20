@@ -1,0 +1,25 @@
+
+################################################################################################################################################
+Starting Execution:	"7 out of 7" test cases in the current suite
+Test Method:		"TestPartialUpdateBooking.testPartialUpdateBook"
+################################################################################################################################################
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/partialUpdateBooking.json"". @20-04-2023 15:29:12.0025 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/partialUpdateBooking.json"". @20-04-2023 15:29:12.0025 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/partialUpdateBooking.json"". @20-04-2023 15:29:12.0034 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/partialUpdateBooking.json"". @20-04-2023 15:29:12.0034 PM
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @20-04-2023 15:29:12.0802 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @20-04-2023 15:29:12.0802 PM
+[ReportManager] Perform request "GET | Target Status Code: 200 | Service URL: https://restful-booker.herokuapp.com/booking/ | Content Type: application/json | Response Time: 757ms". @20-04-2023 15:29:13.0167 PM
+[ReportManager] Successfully created attachment "API Request - Specifications" @20-04-2023 15:29:13.0168 PM
+[ReportManager] Successfully created attachment "API Response - JSON Body" @20-04-2023 15:29:13.0169 PM
+[ReportManager] Get response jsonvalue "[0].bookingid". @20-04-2023 15:29:13.0191 PM
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @20-04-2023 15:29:13.0936 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @20-04-2023 15:29:13.0937 PM
+[ReportManager] Perform request "PATCH | Target Status Code: 200 | Service URL: https://restful-booker.herokuapp.com/booking/3579 | Content Type: application/json | Response Time: 742ms". @20-04-2023 15:29:13.0945 PM
+[ReportManager] Successfully created attachment "API Request - Specifications" @20-04-2023 15:29:13.0945 PM
+[ReportManager] Successfully created attachment "API Request - JSON Body" @20-04-2023 15:29:13.0946 PM
+[ReportManager] Successfully created attachment "API Response - JSON Body" @20-04-2023 15:29:13.0946 PM
+[ReportManager] Get response jsonvalue "firstname". @20-04-2023 15:29:13.0947 PM
+[ReportManager] Verification Passed: The API response extracted value from the JSON path "firstname" is equal to "Mohamed". @20-04-2023 15:29:13.0947 PM
+[ReportManager] Get response jsonvalue "lastname". @20-04-2023 15:29:13.0947 PM
+[ReportManager] Verification Passed: The API response extracted value from the JSON path "lastname" is equal to "Belal". @20-04-2023 15:29:13.0947 P

@@ -1,0 +1,11 @@
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/delete.json"". @20-04-2023 15:28:49.0566 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/delete.json"". @20-04-2023 15:28:49.0567 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/delete.json"". @20-04-2023 15:28:50.0572 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/delete.json"". @20-04-2023 15:28:50.0573 PM
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @20-04-2023 15:28:52.0304 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @20-04-2023 15:28:52.0312 PM
+[ReportManager] Perform request "POST | Target Status Code: 200 | Service URL: https://restful-booker.herokuapp.com/auth | Content Type: application/json | Response Time: 1220ms". @20-04-2023 15:28:52.0363 PM
+[ReportManager] Successfully created attachment "API Request - Specifications" @20-04-2023 15:28:52.0364 PM
+[ReportManager] Successfully created attachment "API Request - JSON Body" @20-04-2023 15:28:52.0365 PM
+[ReportManager] Successfully created attachment "API Response - JSON Body" @20-04-2023 15:28:52.0365 PM
+[ReportManager] Get response jsonvalue "token". @20-04-2023 15:28:52.0458 P

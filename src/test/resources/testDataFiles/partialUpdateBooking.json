@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "username": "admin",
+    "password": "password123"
+  },
+  "validData": {
+    "firstname": "Mohamed",
+    "lastname": "Belal"
+  }
+}
